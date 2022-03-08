@@ -1,20 +1,9 @@
-import { createHeader } from './Header';
+import rendered from "../public/heading.html";
 
 export default {
-  title: 'Example/Header',
-  argTypes: {
-    onLogin: { action: 'onLogin' },
-    onLogout: { action: 'onLogout' },
-    onCreateAccount: { action: 'onCreateAccount' },
-  },
+  title: 'Header'
 };
 
-const Template = (args) => createHeader(args);
+const Template = () => rendered;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
-};
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const Primary = Template.bind({});
