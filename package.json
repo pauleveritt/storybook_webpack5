@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eleventy": "eleventy --serve",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -23,7 +24,9 @@
     "jest": "^27.5.1",
     "babel-loader": "^8.2.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
   "jest": {
     "testEnvironment": "jest-environment-jsdom"
   }
