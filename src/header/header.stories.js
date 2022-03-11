@@ -1,4 +1,4 @@
-import rendered from "../../public/heading.html";
+import rendered from "../../public/header/index.html";
 
 export default {
   title: 'Header'
