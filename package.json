@@ -28,6 +28,7 @@
     "@11ty/eleventy": "^1.0.0"
   },
   "jest": {
-    "testEnvironment": "jest-environment-jsdom"
+    "testEnvironment": "jest-environment-jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"]
   }
 }
